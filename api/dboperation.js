@@ -100,7 +100,7 @@ async function getdata_sp_soporte_api_bi_consulta_nrnp(){
         //return " mathus-error : " + error;
     }
 };
-//########################### ATENCION AL CONTRIBUYENTES #########################################
+//########################### ATENCION AL CONTRIBUYENTE #########################################
 async function getdata_sp_soporte_api_att_aforo(){
     try{
         
