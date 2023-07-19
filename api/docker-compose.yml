@@ -1,0 +1,13 @@
+version: '3.4'
+##docker-compose up -d --build
+services:
+  ejercicionode:
+    image: ejercicionode
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 6969:6969
